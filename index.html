@@ -6,29 +6,32 @@
 
 </head>
 <body>
-    <main style="height:500px; width:300px; color:orange;">
-       <div id="section">
+
+    <div id="section">
         <div>
-            <h2>Customer.....</h2><br>
-            <ul id="customer"></ul>
-        </div><br><br>
-        <div>
-            <h2>.....Support</h2><br>
-            <ul id="support"></ul>
+            <textarea id="custInput" placeholder="We welcome u our esteemed client. How can we help you"></textarea>
+            <button id="button">SEND</button>
         </div>
+        <div class="dc">
+            <h2>Customer</h2>
+            <ul id="customer"></ul>
+        </div>
+
+
     </div>
 
         <div id="button">
-        <div>
-            <textarea style="width: 400px; height: 100px;" id="custInput" placeholder="We welcome u our esteemed client. How can we help you"></textarea>
-            <button id="button">SEND</button>
+            <div>
+                <textarea id="suppInput" placeholder="type to start responding to client"></textarea><br>
+                <button id="button2">SEND</button>
+            </div>
+            <div class="dc">
+                <h2>Support</h2>
+                <ul id="support"></ul>
+            </div>
+
         </div>
-        <div>
-            <textarea style="width: 400px; height: 100px;" id="suppInput" placeholder="type to start responding to client"></textarea>
-            <button id="button2">SEND</button>
-        </div>
-        </div>
-    </main>
+
     <script src="calScript.js"></script>
 </body>
 </html>
