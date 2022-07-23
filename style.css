@@ -1,4 +1,18 @@
-txtInput{
-
-  background-color: blue;
+body{
+  background-color: grey;
+  width: 60%;
+  height:100%;
+  text-align: justify;
+  background-repeat: no-repeat;
+  margin-left: 20%;
+}
+ul{
+  list-style:none;
+}
+#section{
+  display:flex;
+  height:400px;
+}
+#button{
+  display:flex;
 }
